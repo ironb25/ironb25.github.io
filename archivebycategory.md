@@ -4,6 +4,8 @@
     permalink: /categoryview/
     sitemap: false
 ---
+
+
 <div>
     {% assign categories = site.categories | sort %}
     {% for category in categories %}
