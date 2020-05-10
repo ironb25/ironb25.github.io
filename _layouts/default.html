@@ -14,12 +14,7 @@
     {% include head/custom.html %}
   </head>
 
-  <div class="container" >
-     <div id="archives">
-         browse by <a title="The complete archive of {{ site.name }}'s Blog by category"
-                         href="{{ site.url}}{{ site.baseurl }}/categoryview">category</a>
-     </div>
- </div>
+  
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
 
     {% include browser-upgrade.html %}
@@ -34,6 +29,13 @@
         {% include search_form.html %}
       </div>
     {% endif %}
+    
+    <div class="container" >
+     <div id="archives">
+         browse by <a title="The complete archive of {{ site.name }}'s Blog by category"
+                         href="{{ site.url}}{{ site.baseurl }}/categoryview">category</a>
+     </div>
+    </div>
 
     <div class="page__footer">
       <footer>
