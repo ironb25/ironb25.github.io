@@ -5,6 +5,7 @@
     sitemap: false
     ---
 
+
 <div>
     {% assign categories = site.categories | sort %}
     {% for category in categories %}
@@ -29,3 +30,5 @@
         {% endfor %}
     {% endfor %}
 </div>
+
+
