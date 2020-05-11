@@ -2,13 +2,16 @@
 layout: archive
 ---
 
-<div style="text-align: right;" class="container" >
-     <div  class="archive__subtitle" id="archives">
+<div class="archive__subtitle" >
+     <div style="text-align: left;">
+     <h3>{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+     </div>
+     <div style="text-align: right;" id="archives">
          browse by <a title="The complete archive of {{ site.name }}'s Blog by category"
                          href="{{ site.url}}{{ site.baseurl }}/categoryview">category</a>
      </div>
  </div>
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
 
 {% for post in paginator.posts %}
   {% include archive-single.html %}
