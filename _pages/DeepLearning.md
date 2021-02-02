@@ -2,7 +2,7 @@
 layout: posts
 permalink: /deep-learning/
 title: "Deep Learning"
-author_profile: true
+author_profile: false
 header:
   image: "/images/zakim.jpg"
 ---
