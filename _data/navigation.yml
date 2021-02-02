@@ -4,6 +4,8 @@ main:
     url: /about/
   - title: "Data Wrangling Projects"
     url: /data-wrangling/
+  - title: "Deep Learning"
+    url: /deep-learning/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
